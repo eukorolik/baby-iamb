@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2CFFEA9D1DAACBFF00C3BB11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFEA9C1DAACBFF00C3BB11 /* AppDelegate.swift */; };
-		2CFFEA9F1DAACBFF00C3BB11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFEA9E1DAACBFF00C3BB11 /* ViewController.swift */; };
+		2CFFEA9F1DAACBFF00C3BB11 /* TextResulrSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFEA9E1DAACBFF00C3BB11 /* TextResulrSegue.swift */; };
 		2CFFEAA11DAACBFF00C3BB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFEAA01DAACBFF00C3BB11 /* Assets.xcassets */; };
 		2CFFEAA41DAACBFF00C3BB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFEAA21DAACBFF00C3BB11 /* Main.storyboard */; };
 		2CFFEAAF1DAACBFF00C3BB11 /* baby_iambTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFEAAE1DAACBFF00C3BB11 /* baby_iambTests.swift */; };
 		2CFFEABA1DAACBFF00C3BB11 /* baby_iambUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFEAB91DAACBFF00C3BB11 /* baby_iambUITests.swift */; };
+		2CFFEAC81DAADE0600C3BB11 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFEAC71DAADE0600C3BB11 /* ContainerController.swift */; };
+		2CFFEACA1DAADEEB00C3BB11 /* TextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFEAC91DAADEEB00C3BB11 /* TextController.swift */; };
+		2CFFEACC1DAAE14D00C3BB11 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFEACB1DAAE14D00C3BB11 /* ResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* Begin PBXFileReference section */
 		2CFFEA991DAACBFF00C3BB11 /* baby-iamb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baby-iamb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFFEA9C1DAACBFF00C3BB11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CFFEA9E1DAACBFF00C3BB11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CFFEA9E1DAACBFF00C3BB11 /* TextResulrSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextResulrSegue.swift; sourceTree = "<group>"; };
 		2CFFEAA01DAACBFF00C3BB11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFFEAA31DAACBFF00C3BB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CFFEAA51DAACBFF00C3BB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		2CFFEAB51DAACBFF00C3BB11 /* baby-iambUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baby-iambUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFFEAB91DAACBFF00C3BB11 /* baby_iambUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baby_iambUITests.swift; sourceTree = "<group>"; };
 		2CFFEABB1DAACC0000C3BB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFFEAC71DAADE0600C3BB11 /* ContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		2CFFEAC91DAADEEB00C3BB11 /* TextController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextController.swift; sourceTree = "<group>"; };
+		2CFFEACB1DAAE14D00C3BB11 /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				2CFFEA9C1DAACBFF00C3BB11 /* AppDelegate.swift */,
-				2CFFEA9E1DAACBFF00C3BB11 /* ViewController.swift */,
+				2CFFEA9E1DAACBFF00C3BB11 /* TextResulrSegue.swift */,
 				2CFFEAA01DAACBFF00C3BB11 /* Assets.xcassets */,
 				2CFFEAA21DAACBFF00C3BB11 /* Main.storyboard */,
 				2CFFEAA51DAACBFF00C3BB11 /* Info.plist */,
+				2CFFEAC71DAADE0600C3BB11 /* ContainerController.swift */,
+				2CFFEAC91DAADEEB00C3BB11 /* TextController.swift */,
+				2CFFEACB1DAAE14D00C3BB11 /* ResultController.swift */,
 			);
 			path = "baby-iamb";
 			sourceTree = "<group>";
@@ -255,8 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFFEA9F1DAACBFF00C3BB11 /* ViewController.swift in Sources */,
+				2CFFEACA1DAADEEB00C3BB11 /* TextController.swift in Sources */,
+				2CFFEA9F1DAACBFF00C3BB11 /* TextResulrSegue.swift in Sources */,
+				2CFFEACC1DAAE14D00C3BB11 /* ResultController.swift in Sources */,
 				2CFFEA9D1DAACBFF00C3BB11 /* AppDelegate.swift in Sources */,
+				2CFFEAC81DAADE0600C3BB11 /* ContainerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				2CFFEAC01DAACC0000C3BB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CFFEAC11DAACC0000C3BB11 /* Build configuration list for PBXNativeTarget "baby-iambTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				2CFFEAC31DAACC0000C3BB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CFFEAC41DAACC0000C3BB11 /* Build configuration list for PBXNativeTarget "baby-iambUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				2CFFEAC61DAACC0000C3BB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
